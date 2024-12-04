@@ -14,26 +14,27 @@ This project aimed to predict the success of Falcon 9 first-stage landings using
 **API**: Extracted data from SpaceX API.
 **Web Scraping**: Gathered data from Wikipedia.
 Performed data cleaning and categorized missing values for further analysis.
+[Data Wrangling Notebook.](labs-jupyter-spacex-Data wrangling.ipynb)
 
 #### 2. Exploratory Data Analysis (EDA)
 Visualized launch success rates, trends, and key patterns using Matplotlib and Seaborn.
 Analyzed success by payload, orbit, and launch sites.
-EDA Notebook.
+[EDA Notebook.](jupyter-labs-eda-dataviz.ipynb)
 
 #### 3. Interactive Mapping
 Built interactive maps with Folium to visualize launch sites and success rates.
 Mapped proximities to railways, highways, and coastlines for optimal site planning.
-Interactive Map Code.
+[Interactive Map Code.](lab_jupyter_launch_site_location.jupyterlite.ipynb)
 
 #### 4. Dashboards with Plotly Dash
 Created dynamic dashboards to analyze payload success across different launch sites.
 Interactive sliders and pie charts for granular insights.
-Dashboard Code.
+[Dashboard Code.](spacex_dash_app.py)
 
 #### 5. Predictive Analysis
 **Models used**: Logistic Regression, Support Vector Machines, Decision Trees, K-Nearest Neighbors.
 Achieved **94.44%** accuracy using Logistic Regression, SVM, and KNN models.
-Machine Learning Notebook.
+[Machine Learning Notebook.](SpaceX_Machine_Learning_Prediction_Part_5.jupyterlite.ipynb)
 
 ## Results
 #### Key Findings:
@@ -46,6 +47,7 @@ Trends in success by orbit and payload mass.
 Maps of launch site proximities and outcomes.
 
 ## Repository Structure 📂
+/*
 .
 ├── data/
 ├── notebooks/
@@ -56,3 +58,4 @@ Maps of launch site proximities and outcomes.
 │   └── machine-learning-predictions.ipynb
 ├── results/
 └── README.md
+*/
